@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar {
+    height: 605px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2c2c;
+    justify-content: space-between;
+}
+
+.downside,
+.upside {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* chat section start here */
+.chat-section {
+    width: 400px;
+    margin-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 22, 22);
+}
+
+.profiles p {
+    color: white;
+    font-weight: 500 !important;
+}
+
+.head1-start {
+    padding: 10px;
+    gap: 10px;
+}
+
+.head2-start {
+    padding: 10px;
+    height: 100%;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.part1-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.head3-start {
+    padding: 3px;
+    height: 440px;
+    overflow-y: scroll;
+}
+
+.chats-profile {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.chats-profile img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.head3-start::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 880px;
+    background-color: #2d2c2c;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 0 10px 10px;
+}
+
+.name p {
+    margin-top: 7px;
+}
+
+.name img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.chat-head-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px 5px 0 5px;
+}
+
+.chatProfile {
+    height: 500px;
+    background-color: #2d2c2c;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("chat-background.jpg");
+    opacity: 8px;
+}
+
+.chatMessage {
+    padding: 18px;
+    display: flex;
+    background-color: rgb(23, 22, 22);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.typemsg {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.typemsg input {
+    padding: 2px;
+    width: 600px;
+    background: none;
+    border: none;
+    color: grey;
+}
+
+.chats-profile:hover {
+    background-color: #363434;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
